@@ -300,36 +300,11 @@ This dataset compiles information from publicly available university ranking pla
 
 **Disclaimer**: This repository is for educational and research purposes only and is not officially affiliated with any ranking organization or university.
 
-## 📞 Support & Contact
-
-### 🐛 Issue Reporting
-Found a bug or data inconsistency? Please [open an issue](https://github.com/Asjad-Ilahi/world-universities-data/issues) with:
-- Clear description of the problem
-- Steps to reproduce (if applicable)
-- Suggested correction or improvement
-
-### 💬 Discussion & Ideas
-- **GitHub Discussions**: Share ideas and ask questions
-- **Feature Requests**: Suggest new features or data fields
-- **Collaboration**: Reach out for partnership opportunities
+## ✉️ Questions?
+Open an issue or reach out via GitHub if you'd like to collaborate or build something with this dataset!
 
 ### 📧 Direct Contact
 For collaboration inquiries or commercial usage questions, please contact through GitHub.
-
----
-
-## 🔮 Roadmap
-
-Future enhancements planned:
-
-- [ ] Add financial data (tuition, fees, funding)
-- [ ] Include program-specific rankings
-- [ ] Add historical ranking trends
-- [ ] Implement data validation scripts
-- [ ] Create interactive web dashboard
-- [ ] Add API rate limiting and authentication
-- [ ] Integrate with university application APIs
-
 ---
 
 **⭐ If this dataset helps your project, please consider giving it a star!**
