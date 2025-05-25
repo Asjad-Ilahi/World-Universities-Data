@@ -78,33 +78,26 @@ Each university entry contains the following fields:
 git clone https://github.com/Asjad-Ilahi/world-universities-data.git
 cd world-universities-data
 ```
+### Option 2: Access the JSON file directly:
+bash
+https://raw.githubusercontent.com/Asjad-Ilahi/world-universities-data/main/updated_universities.json
 
-### Option 2: Direct File Access
+### Option 3: Download the dataset
 ```bash
 # Download the dataset directly
 curl -O https://raw.githubusercontent.com/Asjad-Ilahi/world-universities-data/main/updated_universities.json
 ```
 
-### Option 3: Programmatic Access
+### Option 4: Programmatic Access
 
 #### JavaScript/Node.js
 ```javascript
 // Fetch data from GitHub
-const fetchUniversities = async () => {
-  try {
-    const response = await fetch('https://raw.githubusercontent.com/Asjad-Ilahi/world-universities-data/main/updated_universities.json');
-    const universities = await response.json();
-    
-    console.log(`Loaded ${universities.length} universities`);
-    console.log('Top university:', universities[0].name);
-    
-    return universities;
-  } catch (error) {
-    console.error('Error fetching data:', error);
-  }
-};
-
-fetchUniversities();
+fetch("https://raw.githubusercontent.com/Asjad-Ilahi/world-universities-data/main/updated_universities.json")
+  .then(res => res.json())
+  .then(data => {
+    console.log(data[0]); // First university
+  });
 ```
 
 #### Python
