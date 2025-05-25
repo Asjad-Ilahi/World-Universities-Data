@@ -41,44 +41,40 @@ The main file is `updated_universities.json`, which is a JSON array where each o
   "country": "United Kingdom",
   "country_code": "UK"
 }
-🚀 How to Use
+##🚀 How to Use
 You can:
 
-Clone this repo and use the data locally:
+#Clone this repo and use the data locally:
 
-bash
-Copy
-Edit
-git clone https://github.com/<your-username>/world-universities-data.git
-Access the JSON file directly:
+<pre lang="markdown"> ```bash git clone https://github.com/Asjad-Ilahi/world-universities-data.git ``` </pre>
 
-bash
-Copy
-Edit
-https://raw.githubusercontent.com/<your-username>/world-universities-data/main/updated_universities.json
-Use as a simple API (example in JavaScript):
+#Access the JSON file directly:
 
-js
-Copy
-Edit
+<pre lang="markdown"> ```bash
+https://raw.githubusercontent.com/Asjad-Ilahi/world-universities-data/main/updated_universities.json  ``` </pre>
+
+#Use as a simple API (example in JavaScript):
+
+```bash
 fetch("https://raw.githubusercontent.com/<your-username>/world-universities-data/main/updated_universities.json")
   .then(res => res.json())
   .then(data => {
     console.log(data[0]); // First university
   });
+
 You can also host this file on services like GitHub Pages or Vercel to build a frontend or API layer.
 
-🤝 Contributing
+##🤝 Contributing
 Want to help grow this dataset? Great!
 
-✍️ How to Contribute:
+##✍️ How to Contribute:
 Fork this repo
 
 Add or improve university entries in updated_universities.json
 
 Submit a pull request with a clear description of your changes
 
-Please make sure:
+#Please make sure:
 
 Entries are accurate and cleanly formatted
 
@@ -86,7 +82,7 @@ All required fields are present
 
 Optional: Provide sources in pull request comments
 
-📈 API Suggestion (Optional)
+##📈 API Suggestion (Optional)
 You can turn this dataset into a basic REST API using:
 
 json-server
@@ -97,24 +93,22 @@ Firebase or Supabase
 
 Example with json-server:
 
-bash
-Copy
-Edit
+```bash
 npm install -g json-server
 json-server --watch updated_universities.json --port 3000
-Then access:
 http://localhost:3000 for full dataset
 http://localhost:3000?country=UK for filtering, etc.
 
-📜 License
+
+##📜 License
 This project is licensed under the MIT License.
 
 You are free to use, modify, and distribute this dataset for personal, academic, or commercial use, with proper attribution.
 
 See LICENSE for more details.
 
-🌐 Acknowledgments
+##🌐 Acknowledgments
 Data compiled from publicly available information on university ranking platforms. This repository is for open educational use only and is not affiliated with any ranking organization.
 
-✉️ Questions?
+##✉️ Questions?
 Open an issue or reach out via GitHub if you'd like to collaborate or build something with this dataset!
