@@ -79,8 +79,9 @@ git clone https://github.com/Asjad-Ilahi/world-universities-data.git
 cd world-universities-data
 ```
 ### Option 2: Access the JSON file directly:
-bash
+```bash
 https://raw.githubusercontent.com/Asjad-Ilahi/world-universities-data/main/updated_universities.json
+```
 
 ### Option 3: Download the dataset
 ```bash
